@@ -1,5 +1,6 @@
 import java.lang.reflect.Array;
 import java.time.LocalDate;
+import java.util.Date;
 
 public class TiposVariaveis {
 
@@ -30,6 +31,6 @@ public class TiposVariaveis {
     //Tipos de classes não primitivos
     String texto;
     Array lista; //Coleção de dados
-    LocalDate data; // exemplo do tipo CLASSE
+    Date data = new Date(); // exemplo do tipo CLASSE
 
 }
